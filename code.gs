@@ -1,7 +1,7 @@
 function getEnvironment() {
   var environment = {
-    spreadsheetID: "",
-    firebaseUrl: "",
+    spreadsheetID: "your_spread_sheet_id",
+    firebaseUrl: "your_realtime_database_url",
   };
   return environment;
 }
