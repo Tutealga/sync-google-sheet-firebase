@@ -16,7 +16,7 @@ const Data = async () => {
     <section>
   <article>
   {
-      res.map(data => <Card key={data.id} data={data} />
+      res.map(data => <Card key={data.id} data={data} />)
   }
   </article>
     </section>
