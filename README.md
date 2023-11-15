@@ -1,4 +1,4 @@
-##Automatización de datos entre Google Sheets y Firebase Realtime Database
+<h1 align="center">Automatización de datos entre Google Sheets y Firebase Realtime Database</h1>
 
 ¿Qué utilidad tiene esto? Por ejemplo, usar a modo de dashboard para ajustar precios en un e-commerce una hoja de cálculo. Interfaz más accesible y recurrente para un cliente.
 
@@ -13,7 +13,7 @@ Google Sheets permite agregar scripts, donde crearemos un programa para la sincr
 
 Este script importará la información a Firebase desde Google Sheets. Antes de ejecutarse, nos pedirá que aceptemos permisos.
 
-##5. ¿Cómo acceder a esta información en tu código?
+# 5. ¿Cómo acceder a esta información en tu código?
 
 • Instalamos la dependencia de Firebase: npm install firebase.
 • Importamos las funcionalidades del módulo "database".
