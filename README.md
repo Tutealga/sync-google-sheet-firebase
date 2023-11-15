@@ -9,6 +9,7 @@
 1. Desde la hoja de cálculo a sincronizar con la base de datos vamos a "Apps Script" en "Extensiones". 
 2. Hacemos visible el archivo "appsscript.json" desde "Configuración del Proyecto" y seleccionamos la opción "Mostrar el archivo de manifiesto 'appsscript.json' en el editor".
 3. Regresamos a "Editor" y pegamos el siguiente código en el archivo "appsscript.json":
+
 ```json
 {
   "timeZone": "America/Argentina/Buenos_Aires",
@@ -122,13 +123,11 @@ function importSheet() {
 <p>Este script importará la información a Firebase desde Google Sheets. Antes de ejecutarse, nos pedirá que aceptemos permisos.</p>
 
 ## 5. ¿Cómo acceder a esta información en tu código?
-<ul>
-  <li>Instalamos la dependencia de Firebase: npm install firebase.</li>
-  <li>Importamos las funcionalidades del módulo "database".</li>
-  <li>Debemos modificar las reglas en Firebase para permitir la lectura de información.</li>
-  <li>Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código:</li> 
-</ul>
-  ``` javascript
+Instalamos la dependencia de Firebase: npm install firebase.
+Importamos las funcionalidades del módulo "database".
+Debemos modificar las reglas en Firebase para permitir la lectura de información.
+Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código:
+  ``` js
     import {rdb} from "../firebase/firebase"
 import {get, ref, child} from "firebase/database"
 
