@@ -1,4 +1,4 @@
-<h1 align="center">Automatización de datos entre Google Sheets y Firebase Realtime Database</h1>
+<h1>Automatización de datos entre Google Sheets y Firebase Realtime Database</h1>
 
 ¿Qué utilidad tiene esto? Por ejemplo, usar a modo de dashboard para ajustar precios en un e-commerce una hoja de cálculo. Interfaz más accesible y recurrente para un cliente.
 
@@ -123,10 +123,10 @@ Este script importará la información a Firebase desde Google Sheets. Antes de 
 
 # 5. ¿Cómo acceder a esta información en tu código?
 <ul>
-  <li>• Instalamos la dependencia de Firebase: npm install firebase.</li>
-  <li>• Importamos las funcionalidades del módulo "database".</li>
-  <li>• Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código: https://lnkd.in/dhtdA_gX.</li>
-  <li>• Debemos modificar las reglas en Firebase para permitir la lectura de información.</li>
+  <li>Instalamos la dependencia de Firebase: npm install firebase.</li>
+  <li>Importamos las funcionalidades del módulo "database".</li>
+  <li>Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código: https://lnkd.in/dhtdA_gX.</li>
+  <li>Debemos modificar las reglas en Firebase para permitir la lectura de información.</li>
 </ul>
 
 
