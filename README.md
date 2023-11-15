@@ -128,15 +128,16 @@ Importamos las funcionalidades del módulo "database".
 Debemos modificar las reglas en Firebase para permitir la lectura de información.
 Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código:
   ``` js
-    import {rdb} from "../firebase/firebase"
+import {rdb} from "../firebase/firebase"
 import {get, ref, child} from "firebase/database"
 
 const getData = async () => {
- const db = ref(rdb)
+const db = ref(rdb)
 
- const response = await get(child(db, 'your_spread_sheet_id/spread_sheet_name'))
- const data = await response.val()
- return data
+const response = await get(child(db, 'your_spread_sheet_id/spread_sheet_name'))
+const data = await response.val()
+ 
+return data
 }
 
 const Data = async () => {
