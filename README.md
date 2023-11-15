@@ -125,7 +125,9 @@ Este script importará la información a Firebase desde Google Sheets. Antes de 
 <ul>
   <li>Instalamos la dependencia de Firebase: npm install firebase.</li>
   <li>Importamos las funcionalidades del módulo "database".</li>
+  <li>Debemos modificar las reglas en Firebase para permitir la lectura de información.</li>
   <li>Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código:</li> 
+</ul>
   ``` js
     import {rdb} from "../firebase/firebase"
 import {get, ref, child} from "firebase/database"
@@ -155,8 +157,6 @@ const Data = async () => {
 
 export default Data
 ```
-<li>Debemos modificar las reglas en Firebase para permitir la lectura de información.</li>
-</ul>
 
 
 
