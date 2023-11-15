@@ -122,7 +122,7 @@ function importSheet() {
 
 <p>Este script importará la información a Firebase desde Google Sheets. Antes de ejecutarse, nos pedirá que aceptemos permisos.</p>
 
-## 5. ¿Cómo acceder a esta información en tu código?
+## ¿Cómo acceder a esta información en tu código?
 Instalamos la dependencia de Firebase: npm install firebase.
 Importamos las funcionalidades del módulo "database".
 Debemos modificar las reglas en Firebase para permitir la lectura de información.
