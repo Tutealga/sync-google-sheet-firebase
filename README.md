@@ -2,9 +2,9 @@
 
 <p>¿Qué utilidad tiene esto? Por ejemplo, usar a modo de dashboard para ajustar precios en un e-commerce una hoja de cálculo. Interfaz más accesible y recurrente para un cliente.</p>
 
-## Al modificar datos en Google Sheets se actualizaran automáticamente en Firebase. ¿Pero como lo logramos?
+<p>Al modificar datos en Google Sheets se actualizaran automáticamente en Firebase. ¿Pero como lo logramos?</p>
 
-<p>Google Sheets permite agregar scripts, donde crearemos un programa para la sincronización con la base de datos en tiempo real:</p>
+## Google Sheets permite agregar scripts, donde crearemos un programa para la sincronización con la base de datos en tiempo real:
 
 1. Desde la hoja de cálculo a sincronizar con la base de datos vamos a "Apps Script" en "Extensiones". 
 2. Hacemos visible el archivo "appsscript.json" desde "Configuración del Proyecto" y seleccionamos la opción "Mostrar el archivo de manifiesto 'appsscript.json' en el editor".
