@@ -2,7 +2,7 @@
 
 <p>¿Qué utilidad tiene esto? Por ejemplo, usar a modo de dashboard para ajustar precios en un e-commerce una hoja de cálculo. Interfaz más accesible y recurrente para un cliente.</p>
 
-<p>Al modificar datos en Google Sheets se actualizaran automáticamente en Firebase. ¿Pero como lo logramos?</p>
+# Al modificar datos en Google Sheets se actualizaran automáticamente en Firebase. ¿Pero como lo logramos?
 
 <p>Google Sheets permite agregar scripts, donde crearemos un programa para la sincronización con la base de datos en tiempo real:</p>
 
