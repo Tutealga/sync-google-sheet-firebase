@@ -1,10 +1,10 @@
 <h1>Automatización de datos entre Google Sheets y Firebase Realtime Database</h1>
 
-¿Qué utilidad tiene esto? Por ejemplo, usar a modo de dashboard para ajustar precios en un e-commerce una hoja de cálculo. Interfaz más accesible y recurrente para un cliente.
+<p>¿Qué utilidad tiene esto? Por ejemplo, usar a modo de dashboard para ajustar precios en un e-commerce una hoja de cálculo. Interfaz más accesible y recurrente para un cliente.</p>
 
-Al modificar datos en Google Sheets se actualizaran automáticamente en Firebase. ¿Pero como lo logramos?
+<p>Al modificar datos en Google Sheets se actualizaran automáticamente en Firebase. ¿Pero como lo logramos?</p>
 
-Google Sheets permite agregar scripts, donde crearemos un programa para la sincronización con la base de datos en tiempo real:
+<p>Google Sheets permite agregar scripts, donde crearemos un programa para la sincronización con la base de datos en tiempo real:</p>
 
 1. Desde la hoja de cálculo a sincronizar con la base de datos vamos a "Apps Script" en "Extensiones". 
 2. Hacemos visible el archivo "appsscript.json" desde "Configuración del Proyecto" y seleccionamos la opción "Mostrar el archivo de manifiesto 'appsscript.json' en el editor".
@@ -119,7 +119,7 @@ function importSheet() {
 }
 ```
 
-Este script importará la información a Firebase desde Google Sheets. Antes de ejecutarse, nos pedirá que aceptemos permisos.
+<p>Este script importará la información a Firebase desde Google Sheets. Antes de ejecutarse, nos pedirá que aceptemos permisos.</p>
 
 # 5. ¿Cómo acceder a esta información en tu código?
 <ul>
@@ -128,7 +128,7 @@ Este script importará la información a Firebase desde Google Sheets. Antes de 
   <li>Debemos modificar las reglas en Firebase para permitir la lectura de información.</li>
   <li>Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código:</li> 
 </ul>
-  ``` js
+  ``` javascript
     import {rdb} from "../firebase/firebase"
 import {get, ref, child} from "firebase/database"
 
