@@ -14,6 +14,11 @@ Google Sheets permite agregar scripts, donde crearemos un programa para la sincr
 Este script importará la información a Firebase desde Google Sheets. Antes de ejecutarse, nos pedirá que aceptemos permisos.
 
 # 5. ¿Cómo acceder a esta información en tu código?
+<p align="center"></p>
+- [Instalamos la dependencia de Firebase: npm install firebase.]
+- [Importamos las funcionalidades del módulo "database".]
+- [Realizamos la petición, que devolverá un array de objetos que podemos iterar para mostrar en pantalla. Como en el ejemplo del siguiente código: https://lnkd.in/dhtdA_gX.]
+- [Debemos modificar las reglas en Firebase para permitir la lectura de información.]
 
 • Instalamos la dependencia de Firebase: npm install firebase.
 • Importamos las funcionalidades del módulo "database".
